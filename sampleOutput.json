@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "totalResults": 4,
+  "articles": [
+    {
+      "source": {
+        "id": "talksport",
+        "name": "TalkSport"
+      },
+      "author": "talkSPORT",
+      "title": "Football news LIVE: West Ham star Zouma apologises for disturbing video, Eriksen opens up on football...",
+      "description": "",
+      "url": "https://talksport.com/football/1036572/premier-league-transfers-tottenham-chelsea-man-utd-arsenal-liverpool/",
+      "urlToImage": "https://talksport.com/wp-content/uploads/sites/5/2022/02/talksport-blog-4.jpg?strip=all&quality=100&w=1200&h=800&crop=1",
+      "publishedAt": "2022-02-08T08:02:44Z",
+      "content": "Keep up to date with all the latest football news, rumours and reaction.\r\nThe FA Cup provided plenty of drama over the weekend and attention now turns back to Premier League action.\r\nThere are three … [+410 chars]"
+    },
+    {
+      "source": {
+        "id": "four-four-two",
+        "name": "FourFourTwo"
+      },
+      "author": "PA Staff",
+      "title": "Christian Eriksen knew he may play football again two days after cardiac arrest",
+      "description": "Christian Eriksen has said he knew he would play football again just two days after suffering a cardiac arrest.",
+      "url": "https://www.fourfourtwo.com/news/christian-eriksen-knew-he-may-play-football-again-two-days-after-cardiac-arrest-1644276773000",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/ABbe4tf8ijtASUKGZkJFfH-1200-80.jpg",
+      "publishedAt": "2022-02-07T23:32:53Z",
+      "content": "Christian Eriksen has said he knew he would play football again just two days after suffering a cardiac arrest.\r\nEriksen collapsed on the pitch at the Parken Stadium in June during Denmark’s European… [+3056 chars]"
+    },
+    {
+      "source": {
+        "id": "four-four-two",
+        "name": "FourFourTwo"
+      },
+      "author": "PA Staff",
+      "title": "FPL tips: Does this list of goal-hungry shot hogs contain a differential?",
+      "description": "Could a list of shot-hungry footballers hold the key to the next FPL differential?",
+      "url": "https://www.fourfourtwo.com/news/fpl-tips-does-this-list-of-goal-hungry-shot-hogs-contain-a-differential-1644269149000",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/pVUg57s72Vtf9MpkfbQK5i-1200-80.jpg",
+      "publishedAt": "2022-02-07T21:25:49Z",
+      "content": "Could a list of shot-hungry footballers hold the key to the next FPL differential?\r\nBy analysing a list of players with the most shots since their last Premier League goal (minimum 10 career goals) w… [+2885 chars]"
+    },
+    {
+      "source": {
+        "id": "espn-cric-info",
+        "name": "ESPN Cric Info"
+      },
+      "author": null,
+      "title": "Five famous people (and one cat) you didn't know have ESPNcricinfo profiles | ESPNcricinfo.com",
+      "description": "Why do a footballer, a Nobel laureate and a prime minister (no, not Imran Khan) find themselves in the ESPNcricinfo player database? | ESPNcricinfo.com",
+      "url": "http://www.espncricinfo.com/story/_/id/29102695/five-famous-people-one-cat-know-espncricinfo-profiles",
+      "urlToImage": "https://a.espncdn.com/i/cricket/cricinfo/1221668_1296x1296.gif",
+      "publishedAt": "2020-04-27T07:20:43Z",
+      "content": "Why do a cat, a footballer, a Nobel laureate and a prime minister find themselves in the ESPNcricinfo database? Here are six player profiles you wouldn't have expected we had.\r\nPeter the catThe only … [+5504 chars]"
+    }
+  ]
+}
