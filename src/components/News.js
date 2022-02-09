@@ -10,7 +10,7 @@ export class News extends Component {
           },
           "author": "talkSPORT",
           "title": "Football news LIVE: West Ham star Zouma apologises for disturbing video, Eriksen opens up on football...",
-          "description": "",
+          "description": "Cristiano Ronaldo is facing criticism after he appeared to blank travelling Manchester United supporters following Tuesday’s 1-1 draw at Burnley",
           "url": "https://talksport.com/football/1036572/premier-league-transfers-tottenham-chelsea-man-utd-arsenal-liverpool/",
           "urlToImage": "https://talksport.com/wp-content/uploads/sites/5/2022/02/talksport-blog-4.jpg?strip=all&quality=100&w=1200&h=800&crop=1",
           "publishedAt": "2022-02-08T08:02:44Z",
@@ -69,17 +69,15 @@ export class News extends Component {
         <div className="container my-3">
             <h2>NewsMonkey - Top Headlines</h2>
             <div className="row">
-                <div className="col-md-4">
-                    <NewsItem title = "myTitle" description="myDesc" imageUrl= "https://talksport.com/wp-content/uploads/sites/5/2022/02/talksport-blog-4.jpg?strip=all&quality=100&w=1200&h=800&crop=1"
-                        newsUrl = "TODO"
+            {this.state.articles.map((element)=>{ 
+              return <div className="col-md-4" key={element.url}>
+                    <NewsItem title={element.title.slice(0, 45)} description={element.description.slice(0, 88)} imageUrl=
+                     {element.urlToImage}
+                        newsUrl = {element.url}
                     />
                 </div>
-                <div className="col-md-4">
-                    <NewsItem title = "myTitle" description="myDesc"/>  
-                </div>
-                <div className="col-md-4">
-                    <NewsItem title = "myTitle" description="myDesc"/>
-                </div>   
+            })};
+                
             </div>  
         </div>
         )
