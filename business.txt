@@ -1,0 +1,13 @@
+business
+entertainment
+general
+health
+science
+sports
+technology
+
+
+
+
+
+<Route path="/" element={<News pageSize={6} country="in" category="sports" />}> </Route>
