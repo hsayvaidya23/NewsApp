@@ -8,7 +8,6 @@ import {
   Route
 } from "react-router-dom";
 import LoadingBar from 'react-top-loading-bar';
-import BackToTop from './components/BackToTop';
 
 const App = () => {
   const pageSize = 15;
@@ -25,8 +24,6 @@ const App = () => {
           color='#f11946'
           progress={progress}
         />
-
-        <BackToTop />
           
         <Routes>
           <Route exact path="/" element={<News setProgress={setProgress} apiKey={apiKey} key="" pageSize={pageSize} country="in" category="general" />}> </Route>
