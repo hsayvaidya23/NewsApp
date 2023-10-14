@@ -1,16 +1,29 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+function Navbar({ mode, setMode, text, setText }) {
   const [linkClicked, setLinkClicked] = useState("home");
 
   const linkStateHandler = (e) => {
     setLinkClicked(e.target.id);
   };
+  function onChange() {
+    if (mode === "dark") {
+      setMode("light");
+      setText("BLACK MODE");
+      document.body.style.backgroundColor = "white";
+    } else {
+      setMode("dark");
+      setText("LIGHT MODE");
+      document.body.style.backgroundColor = "grey";
+    }
+  }
 
   return (
     <div>
-      <nav className=" border border-secondary navbar fixed-top navbar-expand-lg navbar-dark bg-light ">
+      <nav
+        className={`navbar navbar-expand-lg fixed-top navbar-${mode} bg-${mode}`}
+      >
         <div className="  d-flex fs-4 py-1 container-fluid ">
           <Link className="navbar-brand nav-link" to="/">
             {<b className="fs-2 ">NewsApp </b>}
@@ -122,10 +135,30 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
+          <div className="form-check form-switch">
+            <input
+              className="form-check-input"
+              type="checkbox"
+              role="switch"
+              id="flexSwitchCheckDefault"
+              onClick={() => {
+                onChange();
+              }}
+            />
+            <label
+              className="form-check-label"
+              htmlFor="flexSwitchCheckDefault"
+              style={{
+                color: mode === "dark" ? "white" : "black",
+              }}
+            >
+              {text}
+            </label>
+          </div>
         </div>
       </nav>
     </div>
   );
-};
+}
 
 export default Navbar;
